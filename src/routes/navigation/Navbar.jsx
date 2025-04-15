@@ -11,10 +11,16 @@ function Navbar() {
         </li>
     );
 
+    const desktopNavigationButton = (toLink, buttonText) => (
+        <li className="text-center py-3 px-3">
+            <Link to={toLink}>{buttonText}</Link>
+        </li>
+    );
+
     return (
         <>
             {/*Mobile*/}
-            <div className="bg-[#F4F4F4] h-12">
+            <div className="bg-[#EDEDED] h-12">
                 <div
                     className={
                         "w-10 text-center pb-1 border-2 border-[#D1D1D1] bg-[#F4F4F4] rounded-lg absolute top-1.5 right-0 md:hidden mr-3 font-bold"
@@ -30,7 +36,7 @@ function Navbar() {
                             : "hidden"
                     }
                 >
-                    {mobileNavButton("/home", "Home")}
+                    {mobileNavButton("/", "Home")}
                     {mobileNavButton("/about", "About")}
                     {mobileNavButton("/skills", "Skills")}
                     {mobileNavButton("/projects", "Projects")}
@@ -40,21 +46,11 @@ function Navbar() {
                 {/*Desktop*/}
                 <nav className="hidden md:flex">
                     <ul className="md:flex md:flex-row">
-                        <li>
-                            <Link to={"/"}>Home</Link>
-                        </li>
-                        <li>
-                            <Link to={"/about"}>About</Link>
-                        </li>
-                        <li>
-                            <Link to={"/skills"}>Skills</Link>
-                        </li>
-                        <li>
-                            <Link to={"/projects"}>Projects</Link>
-                        </li>
-                        <li>
-                            <Link to={"/contact"}>Contact</Link>
-                        </li>
+                        {desktopNavigationButton("/", "Home")}
+                        {desktopNavigationButton("/about", "About")}
+                        {desktopNavigationButton("/skills", "Skills")}
+                        {desktopNavigationButton("/projects", "Projects")}
+                        {desktopNavigationButton("/contact", "Contact")}
                     </ul>
                 </nav>
             </div>
