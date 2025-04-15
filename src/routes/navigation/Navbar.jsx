@@ -6,13 +6,16 @@ function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
 
     const mobileNavButton = (toLink, buttonText) => (
-        <li onClick={() => setExpandNav(false)} className="text-center py-3">
+        <li
+            onClick={() => setExpandNav(false)}
+            className="text-center py-3 active:font-semibold"
+        >
             <Link to={toLink}>{buttonText}</Link>
         </li>
     );
 
     const desktopNavigationButton = (toLink, buttonText) => (
-        <li className="text-center py-3 px-3">
+        <li className="text-center py-3 px-3 hover:font-semibold">
             <Link to={toLink}>{buttonText}</Link>
         </li>
     );
@@ -23,7 +26,7 @@ function Navbar() {
             <div className="bg-[#EDEDED] h-12">
                 <div
                     className={
-                        "w-10 text-center pb-1 border-2 border-[#D1D1D1] bg-[#F4F4F4] rounded-lg absolute top-1.5 right-0 md:hidden mr-3 font-bold"
+                        "w-10 text-center pb-1 border-2 border-[#2E2E2E] bg-[#F4F4F4] rounded-lg absolute top-1.5 right-0 md:hidden mr-3 font-bold"
                     }
                     onClick={() => setExpandNav(!expandNav)}
                 >
