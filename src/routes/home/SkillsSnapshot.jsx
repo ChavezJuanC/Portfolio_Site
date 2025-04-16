@@ -66,7 +66,7 @@ function SkillsSnapshot() {
             </div>
             {/*Mobile*/}
             <div className="overflow-x-auto p-4 md:hidden">
-                <div className="text-center text-2xl text-[#2E2E2E] font-semibold mb-10">
+                <div className="text-center text-2xl text-[#2E2E2E] font-semibold mb-16 border-b w-1/2 mx-auto pb-2">
                     Skills
                 </div>
                 <div>

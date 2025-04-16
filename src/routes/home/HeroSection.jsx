@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroSection() {
     return (
-        <div className="md:flex flex-row justify-center md:items-center mt-10 md:mt-20 mx-5 md:mx-16 border-2 md:border-0 border-[#2E2E2E] rounded-md pb-10 md:pb-0 pt-8 md:pt-9 z-0">
+        <div className="md:flex flex-row justify-center md:items-center mt-16 md:mt-20 mx-5 md:mx-16 border-2 md:border-0 border-[#2E2E2E] rounded-md pb-10 md:pb-0 pt-8 md:pt-9 z-0">
             <div className="w-96 h-96 overflow-hidden rounded-4xl [mask-image:linear-gradient(to_bottom,black_5%,transparent_100%)] mx-auto md:mx-0 md:mb-0 mb-20 shadow=lg">
                 <img
                     src="/imgs/portfolioimg.png"

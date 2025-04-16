@@ -10,7 +10,7 @@ function Home() {
     return (
         <div>
             <HeroSection />
-            <div className="text-center md:mt-32 mt-16 text-xl mx-10 text-[#4A4A4A]">
+            <div className="text-center md:mt-42 mt-32 text-xl mx-10 text-[#4A4A4A]">
                 "I'm a self-taught developer who swapped call-center headsets
                 for code editors. Explore my demos, skills, and how I solve
                 real-world challenges."
@@ -28,10 +28,10 @@ function Home() {
             <div className="md:mt-28 mt-20" id="featured_projects">
                 <FeaturedProjects />
             </div>
-            <div className="md:mt-32 mt-16" id="skills_section">
+            <div className="md:mt-32 mt-21" id="skills_section">
                 <SkillsSnapshot />
             </div>
-            <div className="border-1 md:w-1/2 rounded-lg p-6 flex flex-col mx-10 md:mx-auto mt-22 border-[#D1D1D1] mb-20">
+            <div className="border-1 md:w-1/2 rounded-lg p-6 flex flex-col mx-10 md:mx-auto mt-32 border-[#D1D1D1] mb-20">
                 <div className="text-[#4A4A4A] text-lg">
                     Over the past year, I've built React+Mongo CRUD apps, .NET
                     Windows Forms tools, and Arduino-powered hardware demos. I
