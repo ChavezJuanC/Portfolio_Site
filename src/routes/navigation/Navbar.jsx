@@ -1,24 +1,45 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
+    const nav = useNavigate();
 
     const mobileNavButton = (toLink, buttonText) => (
         <li
             onClick={() => setExpandNav(false)}
-            className="text-center py-3 active:font-semibold"
+            className="text-center py-3  hover:text-[#4A90E2] active:text-[#4A90E2]"
         >
             <Link to={toLink}>{buttonText}</Link>
         </li>
     );
 
     const desktopNavigationButton = (toLink, buttonText) => (
-        <li className="text-center py-3 px-3 hover:text-[#4A90E2]">
+        <li className="text-center py-3 px-3 hover:text-[#4A90E2] active:text-[#4A90E2]">
             <Link to={toLink}>{buttonText}</Link>
         </li>
     );
+
+    function handleSkillsNavigation() {
+        setExpandNav(false);
+        const current_route = location.pathname;
+        console.log(current_route);
+
+        if (current_route == "/") {
+            document
+                .getElementById("skills_section")
+                ?.scrollIntoView({ behavior: "smooth" });
+        } else {
+            nav("/");
+            setTimeout(() => {
+                document
+                    .getElementById("skills_section")
+                    ?.scrollIntoView({ behavior: "smooth" });
+            }, 100);
+        }
+    }
 
     return (
         <>
@@ -41,7 +62,12 @@ function Navbar() {
                 >
                     {mobileNavButton("/", "Home")}
                     {mobileNavButton("/about", "About")}
-                    {mobileNavButton("/skills", "Skills")}
+                    <li
+                        onClick={handleSkillsNavigation}
+                        className="text-center py-3  hover:text-[#4A90E2] active:text-[#4A90E2]"
+                    >
+                        Skills
+                    </li>
                     {mobileNavButton("/projects", "Projects")}
                     {mobileNavButton("/contact", "Contact")}
                 </ul>
@@ -51,7 +77,12 @@ function Navbar() {
                     <ul className="md:flex md:flex-row">
                         {desktopNavigationButton("/", "Home")}
                         {desktopNavigationButton("/about", "About")}
-                        {desktopNavigationButton("/skills", "Skills")}
+                        <li
+                            onClick={handleSkillsNavigation}
+                            className="text-center py-3 hover:text-[#4A90E2] active:text-[#4A90E2] hover:cursor-pointer"
+                        >
+                            Skills
+                        </li>
                         {desktopNavigationButton("/projects", "Projects")}
                         {desktopNavigationButton("/contact", "Contact")}
                     </ul>
