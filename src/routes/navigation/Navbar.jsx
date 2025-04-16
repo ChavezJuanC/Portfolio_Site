@@ -15,7 +15,7 @@ function Navbar() {
     );
 
     const desktopNavigationButton = (toLink, buttonText) => (
-        <li className="text-center py-3 px-3 hover:font-semibold">
+        <li className="text-center py-3 px-3 hover:text-[#4A90E2]">
             <Link to={toLink}>{buttonText}</Link>
         </li>
     );
@@ -35,7 +35,7 @@ function Navbar() {
                 <ul
                     className={
                         expandNav
-                            ? "flex flex-col shadow-lg rounded-bl-md rounded-b-md bg-[#F4F4F4] absolute top-12 right-0 text-[#2E2E2E] w-1/3"
+                            ? "flex flex-col shadow-lg rounded-bl-md rounded-b-md bg-[rgba(244,244,244,0.9)] absolute top-12 right-0 text-[#2E2E2E] w-1/3 z-10"
                             : "hidden"
                     }
                 >
