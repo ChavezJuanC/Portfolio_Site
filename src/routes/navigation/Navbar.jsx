@@ -17,7 +17,7 @@ function Navbar() {
     );
 
     const desktopNavigationButton = (toLink, buttonText) => (
-        <li className="text-center py-3 px-3 hover:text-[#4A90E2] active:text-[#4A90E2]">
+        <li className="text-center py-3 px-4 hover:text-[#4A90E2] active:text-[#4A90E2]">
             <Link to={toLink}>{buttonText}</Link>
         </li>
     );
@@ -43,8 +43,9 @@ function Navbar() {
 
     return (
         <>
-            {/*Mobile*/}
             <div className="bg-[#EDEDED] h-12">
+                {/*Mobile*/}
+
                 <div
                     className={
                         "w-10 text-center pb-1 border-2 border-[#2E2E2E] bg-[#F4F4F4] rounded-lg absolute top-1.5 right-0 md:hidden mr-3 font-bold"
@@ -73,13 +74,13 @@ function Navbar() {
                 </ul>
 
                 {/*Desktop*/}
-                <nav className="hidden md:flex">
+                <nav className="hidden md:flex fixed bg-[#EDEDED] w-full">
                     <ul className="md:flex md:flex-row">
                         {desktopNavigationButton("/", "Home")}
                         {desktopNavigationButton("/about", "About")}
                         <li
                             onClick={handleSkillsNavigation}
-                            className="text-center py-3 hover:text-[#4A90E2] active:text-[#4A90E2] hover:cursor-pointer"
+                            className="text-center py-3 px-4 hover:text-[#4A90E2] active:text-[#4A90E2] hover:cursor-pointer"
                         >
                             Skills
                         </li>
