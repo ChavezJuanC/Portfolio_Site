@@ -1,5 +1,6 @@
 {
   "name": "portfolio-site",
+  "base": "/ChavezJuanC/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
