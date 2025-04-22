@@ -12,7 +12,7 @@ function Navbar() {
     const mobileNavButton = (toLink, buttonText) => (
         <li
             onClick={() => setExpandNav(false)}
-            className="text-center py-3  hover:text-[#4A90E2] active:text-[#4A90E2]"
+            className="text-center py-3 hover:text-[#4A90E2] active:text-[#4A90E2]"
         >
             <Link to={toLink}>{buttonText}</Link>
         </li>
@@ -27,7 +27,6 @@ function Navbar() {
     function handleSkillsNavigation() {
         setExpandNav(false);
         const current_route = location.pathname;
-        console.log(current_route);
 
         if (current_route == "/") {
             document
@@ -45,39 +44,13 @@ function Navbar() {
 
     return (
         <>
-            <div className="bg-[#EDEDED] h-14 flex items-center justify-between px-6">
-                {/*Mobile*/}
-                    <FaHome className="text-3xl text-[#3a74b6]"/>
-                    <div
-                        className={
-                            "w-10 text-center text-[#3a74b6] rounded-lg md:hidden font-bold"
-                        }
-                        onClick={() => setExpandNav(!expandNav)}
-                    >
-                        <GiHamburgerMenu className="text-3xl mx-auto mt-1 text-[#3a74b6]" />
-                    </div>
-                <ul
-                    className={
-                        expandNav
-                            ? "flex flex-col shadow-lg rounded-bl-md rounded-b-md bg-[rgba(244,244,244,0.9)] absolute top-12 right-0 text-[#2E2E2E] w-1/3 z-10"
-                            : "hidden"
-                    }
-                >
-                    {mobileNavButton("/", "Home")}
-                    {mobileNavButton("/about", "About")}
-                    <li
-                        onClick={handleSkillsNavigation}
-                        className="text-center py-3  hover:text-[#3a74b6] active:text-[#4A90E2]"
-                    >
-                        Skills
-                    </li>
-                    {mobileNavButton("/projects", "Projects")}
-                    {mobileNavButton("/contact", "Contact")}
-                </ul>
+            {/* Fixed navbar container */}
+            <div className="fixed top-0 left-0 right-0 z-50 bg-[#EDEDED] h-14 flex items-center px-6 border-b border-[#D1D1D1]">
+                <FaHome className="text-3xl text-[#3a74b6] md:hidden" />
 
-                {/*Desktop*/}
-                <nav className="hidden md:flex fixed bg-[#EDEDED] w-full">
-                    <ul className="md:flex md:flex-row">
+                {/* Desktop */}
+                <nav className="hidden md:block">
+                    <ul className="flex flex-row">
                         {desktopNavigationButton("/", "Home")}
                         {desktopNavigationButton("/about", "About")}
                         <li
@@ -90,7 +63,36 @@ function Navbar() {
                         {desktopNavigationButton("/contact", "Contact")}
                     </ul>
                 </nav>
+
+                {/* Mobile menu */}
+                <div
+                    className="w-10 text-center text-[#3a74b6] rounded-lg md:hidden font-bold ml-auto"
+                    onClick={() => setExpandNav(!expandNav)}
+                >
+                    <GiHamburgerMenu className="text-3xl mx-auto mt-1 text-[#3a74b6]" />
+                </div>
+
+                <ul
+                    className={
+                        expandNav
+                            ? "flex flex-col shadow-lg rounded-bl-md rounded-b-md bg-[rgba(244,244,244,0.9)] absolute top-14 right-0 text-[#2E2E2E] w-1/3 z-10"
+                            : "hidden"
+                    }
+                >
+                    {mobileNavButton("/", "Home")}
+                    {mobileNavButton("/about", "About")}
+                    <li
+                        onClick={handleSkillsNavigation}
+                        className="text-center py-3 hover:text-[#3a74b6] active:text-[#4A90E2]"
+                    >
+                        Skills
+                    </li>
+                    {mobileNavButton("/projects", "Projects")}
+                    {mobileNavButton("/contact", "Contact")}
+                </ul>
             </div>
+            {/* Spacer */}
+            <div className="h-14"></div>
         </>
     );
 }

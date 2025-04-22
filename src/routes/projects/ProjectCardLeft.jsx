@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function ProjectCardLeft({ projectName, projectDescription }) {
     return (
-        <div className="xl:w-3/4 2xl:w-1/2 hidden lg:block mx-auto bg-[#FAFAFA] text-[#2E2E2E] px-4 py-8 rounded-2xl shadow-md border border-[#D1D1D1]">
-            <h3 className="text-2xl font-semibold text-center mb-6">
+        <div className="xl:w-3/4 2xl:w-1/2 hidden lg:block mx-auto bg-[#FAFAFA] text-[#2E2E2E] px-4 rounded-2xl shadow-md border border-[#D1D1D1] pb-20">
+            <h3 className="text-2xl font-semibold text-center mb-16 mt-16">
                 {projectName}
             </h3>
             <div className="flex justify-between gap-6 px-10">
@@ -12,7 +12,12 @@ function ProjectCardLeft({ projectName, projectDescription }) {
                 <div className="w-1/2 relative overflow-hidden rounded-xl border border-[#D1D1D1]">
                     <div className="pt-[66.66%] relative">
                         <div className="absolute top-0 left-0 w-full h-full bg-[#F4F4F4] flex items-center justify-center text-[#6E6E6E]">
-                            PICTURES HERE
+                            {/*Maybe accept and array of imgs here?? */}
+                            <img
+                                src="/project_imgs/appointment_setter_desktop/app1.png"
+                                alt="Description"
+                                className="w-full h-full object-fit"
+                            />
                         </div>
                     </div>
                 </div>

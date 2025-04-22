@@ -21,11 +21,13 @@ const ProjectCard = (projectName, projectLink) => {
 const FeaturedProjects = () => {
     return (
         <div className="flex flex-row justify-center flex-wrap">
-            <div>{ProjectCard("Project Name", "/projects/f1")}</div>
-            <div className="mt-10">
+            <div className="mt-10 md:mt-4">
+                {ProjectCard("Project Name", "/projects/f1")}
+            </div>
+            <div className="mt-10 md:mt-4">
                 {ProjectCard("Project Name", "/projects/f2")}
             </div>
-            <div className="mt-10">
+            <div className="mt-10 md:mt-4">
                 {ProjectCard("Project Name", "/projects/f3")}
             </div>
         </div>

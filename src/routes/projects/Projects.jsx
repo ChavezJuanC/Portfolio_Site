@@ -9,7 +9,7 @@ function Projects() {
                 <h2 className="text-3xl font-semibold mb-4 border-b border-[#D1D1D1] pb-2">
                     My work
                 </h2>
-                <p className="text-[#4A4A4A] mb-6 leading-relaxed">
+                <p className="text-[#4A4A4A] mb-6 leading-relaxed text-base">
                     Real solutions, experiments, and full-stack demos I've
                     created to push my skills forward.
                 </p>
