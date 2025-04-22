@@ -9,7 +9,7 @@ function SkillsSnapshot() {
         <>
             {/*Desktop */}
             <div className="overflow-x-auto p-4 md:block hidden">
-                <div className="text-center text-2xl text-[#2E2E2E] font-semibold mb-10">
+                <div className="text-center text-2xl text-[#3a74b6] font-semibold mb-10">
                     My Toolbox
                 </div>
                 <table className="table-auto w-full lg:w-3/4 2xl:w-1/2 mx-auto border border-[#D1D1D1] border-collapse shadow-sm rounded-lg">
@@ -66,11 +66,11 @@ function SkillsSnapshot() {
             </div>
             {/*Mobile*/}
             <div className="overflow-x-auto p-4 md:hidden">
-                <div className="text-center text-2xl text-[#2E2E2E] font-semibold mb-16 border-b w-1/2 mx-auto pb-2">
-                    Skills
+                <div className="text-center text-2xl text-[#2E2E2E] border-[#3a74b6] font-semibold mb-16 border-b-1 w-3/4 mx-auto pb-4 px-4">
+                    My toolbox
                 </div>
-                <div>
-                    <div className="flex flex-row justify-center mb-6">
+                <div className="mb-20">
+                    <div className="flex flex-row justify-center mb-14">
                         <div className="text-xl text-[#2E2E2E]">Front-End</div>
                         <CgWebsite className="text-xl mt-1 mx-2" />
                     </div>
@@ -84,7 +84,7 @@ function SkillsSnapshot() {
                     </ul>
                 </div>
                 <div className="mt-10">
-                    <div className="flex flex-row justify-center mb-6">
+                    <div className="flex flex-row justify-center mb-14">
                         <div className="text-xl text-[#2E2E2E]"> Back-End</div>
                         <FaServer className="text-xl mt-1 mx-2" />
                     </div>
@@ -99,7 +99,7 @@ function SkillsSnapshot() {
                     </ul>
                 </div>
                 <div className="mt-10">
-                    <div className="flex flex-row justify-center mb-6">
+                    <div className="flex flex-row justify-center mb-14">
                         <div className="text-xl text-[#2E2E2E]">
                             Desktop Apps
                         </div>
@@ -114,7 +114,7 @@ function SkillsSnapshot() {
                     </ul>
                 </div>
                 <div className="mt-10">
-                    <div className="flex flex-row justify-center mb-6">
+                    <div className="flex flex-row justify-center mb-14">
                         <div className="text-xl text-[#2E2E2E]">
                             Game Development
                         </div>
@@ -124,7 +124,6 @@ function SkillsSnapshot() {
                         <li className="my-1 text-[#4A4A4A]">Godot</li>
                         <li className="my-1 text-[#4A4A4A]">Unity</li>
                         <li className="my-1 text-[#4A4A4A]">Pygame</li>
-                        <li className="my-1 text-[#4A4A4A]">Arduino</li>
                     </ul>
                 </div>
             </div>

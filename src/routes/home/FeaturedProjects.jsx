@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const ProjectCard = (projectName, projectLink) => {
     return (
         <div className="mx-10">
-            <div className="hidden md:block my-6 text-xl font-semibold text-center w-96 text-[#2E2E2E]">
+            <div className="hidden md:mx-0 mx-12 md:block my-6 text-xl font-semibold text-center w-96 text-[#2E2E2E]">
                 {projectName}
             </div>
             <Link to={projectLink}>
-                <div className="w-96 border-2 border-[#4A90E2] rounded-lg h-60 shadow-lg hover:shadow-2xl active:shadow-2xl">
+                <div className="w-96 border-2 border-[#3a74b6] rounded-lg h-60 shadow-lg hover:shadow-2xl active:shadow-2xl">
                     PICTURE HERE
                 </div>
             </Link>
@@ -21,9 +21,13 @@ const ProjectCard = (projectName, projectLink) => {
 const FeaturedProjects = () => {
     return (
         <div className="flex flex-row justify-center flex-wrap">
-            {ProjectCard("Project Name", "/projects/f1")}
-            {ProjectCard("Project Name", "/projects/f2")}
-            {ProjectCard("Project Name", "/projects/f3")}
+            <div>{ProjectCard("Project Name", "/projects/f1")}</div>
+            <div className="mt-10">
+                {ProjectCard("Project Name", "/projects/f2")}
+            </div>
+            <div className="mt-10">
+                {ProjectCard("Project Name", "/projects/f3")}
+            </div>
         </div>
     );
 };

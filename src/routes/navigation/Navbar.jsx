@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaHome } from "react-icons/fa";
 
 function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
@@ -43,17 +45,17 @@ function Navbar() {
 
     return (
         <>
-            <div className="bg-[#EDEDED] h-12">
+            <div className="bg-[#EDEDED] h-14 flex items-center justify-between px-6">
                 {/*Mobile*/}
-
-                <div
-                    className={
-                        "w-10 text-center pb-1 border-2 border-[#2E2E2E] bg-[#F4F4F4] rounded-lg absolute top-1.5 right-0 md:hidden mr-3 font-bold"
-                    }
-                    onClick={() => setExpandNav(!expandNav)}
-                >
-                    ///
-                </div>
+                    <FaHome className="text-3xl text-[#3a74b6]"/>
+                    <div
+                        className={
+                            "w-10 text-center text-[#3a74b6] rounded-lg md:hidden font-bold"
+                        }
+                        onClick={() => setExpandNav(!expandNav)}
+                    >
+                        <GiHamburgerMenu className="text-3xl mx-auto mt-1 text-[#3a74b6]" />
+                    </div>
                 <ul
                     className={
                         expandNav
@@ -65,7 +67,7 @@ function Navbar() {
                     {mobileNavButton("/about", "About")}
                     <li
                         onClick={handleSkillsNavigation}
-                        className="text-center py-3  hover:text-[#4A90E2] active:text-[#4A90E2]"
+                        className="text-center py-3  hover:text-[#3a74b6] active:text-[#4A90E2]"
                     >
                         Skills
                     </li>
@@ -80,7 +82,7 @@ function Navbar() {
                         {desktopNavigationButton("/about", "About")}
                         <li
                             onClick={handleSkillsNavigation}
-                            className="text-center py-3 px-4 hover:text-[#4A90E2] active:text-[#4A90E2] hover:cursor-pointer"
+                            className="text-center py-3 px-4 hover:text-[#3a74b6] active:text-[#4A90E2] hover:cursor-pointer"
                         >
                             Skills
                         </li>

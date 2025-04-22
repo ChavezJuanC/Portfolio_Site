@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "./HeroSection";
 import FeaturedProjects from "./FeaturedProjects";
 import SkillsSnapshot from "./SkillsSnapshot";
@@ -7,6 +7,17 @@ import { RiArrowDownWideFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 function Home() {
+    useEffect(() => {
+        let screen_size = {
+            width: window.innerWidth,
+            height: window.innerHeight,
+        };
+
+        if (screen_size.width <= 640) {
+            console.log("Mobile site detected..");
+        }
+    }, []);
+
     return (
         <div>
             <HeroSection />
@@ -28,7 +39,7 @@ function Home() {
             <div className="md:mt-28 mt-20" id="featured_projects">
                 <FeaturedProjects />
             </div>
-            <div className="md:mt-32 mt-21" id="skills_section">
+            <div className="md:mt-32 mt-16" id="skills_section">
                 <SkillsSnapshot />
             </div>
             <div className="border-1 md:w-1/2 rounded-lg p-6 flex flex-col mx-10 md:mx-auto mt-32 border-[#D1D1D1] mb-20">
@@ -37,7 +48,7 @@ function Home() {
                     Windows Forms tools, and Arduino-powered hardware demos. I
                     thrive on solving real-world challenges.
                 </div>
-                <div className="text-[#2E2E2E] self-end mt-6 border-[#2E2E2E] border-1 px-3 py-1.5 rounded-md items-center flex shadow-2xl hover:shadow-xl active:shadow-xl hover:cursor-pointer">
+                <div className="self-end mt-6 bg-[#3a74b6] text-[#FFFFFF] border-[#4A90E2] border-1 px-3 py- rounded-md items-center flex shadow-2xl hover:shadow-xl active:shadow-xl hover:cursor-pointer">
                     <Link to="/about">Read my story</Link>
                     <FaArrowRightLong className="inline mx-2" />
                 </div>

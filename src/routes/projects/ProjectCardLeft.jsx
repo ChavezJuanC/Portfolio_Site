@@ -27,7 +27,7 @@ function ProjectCardLeft({ projectName, projectDescription }) {
                             <Link
                                 to="https://www.google.com"
                                 target="_blank"
-                                className="inline-block bg-[#4A90E2] text-white px-4 py-2 rounded-md hover:brightness-110 transition"
+                                className="inline-block bg-[#3a74b6] text-white px-4 py-2 rounded-md hover:brightness-110 transition"
                             >
                                 Source Code
                             </Link>
