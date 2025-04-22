@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCardRight from "./ProjectCardRight";
 import ProjectCardLeft from "./ProjectCardLeft";
+import ProjectCardMobile from "./ProjectCardMobile";
 
 function Projects() {
     return (
@@ -14,7 +15,7 @@ function Projects() {
                     created to push my skills forward.
                 </p>
             </div>
-            <div>
+            <div className="hidden md:block">
                 <div className="mb-22">
                     <ProjectCardRight
                         projectName={"Project Name"}
@@ -59,6 +60,57 @@ function Projects() {
                     <ProjectCardLeft
                         projectName={"Project Name"}
                         projectDescription={
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                        }
+                    />
+                </div>
+            </div>
+            {/* Mobile */}
+            <div className="lg:hidden">
+                <div className="mb-28">
+                    <ProjectCardMobile
+                        projectName={"Project Name"}
+                        ProjectDescription={
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                        }
+                    />
+                </div>
+                <div className="mb-28">
+                    <ProjectCardMobile
+                        projectName={"Project Name"}
+                        ProjectDescription={
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                        }
+                    />
+                </div>
+                <div className="mb-28">
+                    <ProjectCardMobile
+                        projectName={"Project Name"}
+                        ProjectDescription={
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                        }
+                    />
+                </div>
+                <div className="mb-28">
+                    <ProjectCardMobile
+                        projectName={"Project Name"}
+                        ProjectDescription={
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                        }
+                    />
+                </div>
+                <div className="mb-28">
+                    <ProjectCardMobile
+                        projectName={"Project Name"}
+                        ProjectDescription={
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                        }
+                    />
+                </div>
+                <div className="mb-28">
+                    <ProjectCardMobile
+                        projectName={"Project Name"}
+                        ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
                     />

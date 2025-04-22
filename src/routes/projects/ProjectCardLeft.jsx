@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
+import Slider from "./Slider";
 
 function ProjectCardLeft({ projectName, projectDescription }) {
     return (
@@ -10,18 +12,8 @@ function ProjectCardLeft({ projectName, projectDescription }) {
             <div className="flex justify-between gap-6 px-10">
                 {/* Image area with fixed aspect ratio */}
                 <div className="w-1/2 relative overflow-hidden rounded-xl border border-[#D1D1D1]">
-                    <div className="pt-[66.66%] relative">
-                        <div className="absolute top-0 left-0 w-full h-full bg-[#F4F4F4] flex items-center justify-center text-[#6E6E6E]">
-                            {/*Maybe accept and array of imgs here?? */}
-                            <img
-                                src="/project_imgs/appointment_setter_desktop/app1.png"
-                                alt="Description"
-                                className="w-full h-full object-fit"
-                            />
-                        </div>
-                    </div>
+                    <Slider />
                 </div>
-
                 {/* Description + Link */}
                 <div className="w-1/2 flex items-center">
                     <div className="space-y-4 text-right">

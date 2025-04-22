@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Slider from "./Slider";
 
 function ProjectCardRight({ projectName, projectDescription }) {
     return (
@@ -25,18 +26,7 @@ function ProjectCardRight({ projectName, projectDescription }) {
                     </div>
                 </div>
                 <div className="w-1/2 relative overflow-hidden rounded-xl border border-[#D1D1D1]">
-                    <div className="pt-[66.66%] relative">
-                        <div className="absolute top-0 left-0 w-full h-full bg-[#F4F4F4] flex items-center justify-center text-[#6E6E6E]">
-                            {/*Maybe accept and array of imgs here?? */}
-                            <div className="absolute z-10">prev</div>
-                            <img
-                                src="/project_imgs/appointment_setter_desktop/app1.png"
-                                alt="Description"
-                                className="w-full h-full object-fit"
-                            />
-                            <div className="absolute z-10">next</div>
-                        </div>
-                    </div>
+                    <Slider />
                 </div>
             </div>
         </div>
