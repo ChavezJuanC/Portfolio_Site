@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {
+    
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+
     const [formData, setFormData] = useState({
         name: "",
         email: "",

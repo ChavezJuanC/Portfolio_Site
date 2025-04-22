@@ -8,14 +8,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     useEffect(() => {
-        let screen_size = {
-            width: window.innerWidth,
-            height: window.innerHeight,
-        };
-
-        if (screen_size.width <= 640) {
-            console.log("Mobile site detected..");
-        }
+        window.scrollTo({ top: 0, behavior: "smooth" });
     }, []);
 
     return (

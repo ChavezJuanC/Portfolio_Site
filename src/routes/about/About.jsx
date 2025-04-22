@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function About() {
+
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+    
     return (
         <section className="bg-[#FAFAFA] text-[#2E2E2E] px-6 md:py-32 py-16 md:px-20">
             <div className="max-w-3xl mx-auto">

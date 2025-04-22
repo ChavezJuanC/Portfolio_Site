@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -8,6 +8,14 @@ import { FaHome } from "react-icons/fa";
 function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
     const nav = useNavigate();
+
+    function handleScroll() {
+        setExpandNav(false);
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll, { passive: true });
+    }, []);
 
     const mobileNavButton = (toLink, buttonText) => (
         <li
@@ -45,9 +53,10 @@ function Navbar() {
     return (
         <>
             {/* Fixed navbar container */}
-            <div className="fixed top-0 left-0 right-0 z-50 bg-[#EDEDED] h-14 flex items-center px-6 border-b border-[#D1D1D1]">
-                <FaHome className="text-3xl text-[#3a74b6] md:hidden" />
-
+            <div className="fixed top-0 left-0 right-0 z-50 bg-[#EDEDED] h-12 flex items-center px-6 border-b border-[#D1D1D1]">
+                <Link to={"/#"}>
+                    <FaHome className="text-3xl text-[#3a74b6] md:hidden" />
+                </Link>
                 {/* Desktop */}
                 <nav className="hidden md:block">
                     <ul className="flex flex-row">

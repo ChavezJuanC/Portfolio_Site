@@ -83,7 +83,7 @@ function SkillsSnapshot() {
                         <li className="my-1 text-[#4A4A4A]">Tailwind-CSS</li>
                     </ul>
                 </div>
-                <div className="mt-10">
+                <div className="mt-10 mb-20">
                     <div className="flex flex-row justify-center mb-14">
                         <div className="text-xl text-[#2E2E2E]"> Back-End</div>
                         <FaServer className="text-xl mt-1 mx-2" />
@@ -98,7 +98,7 @@ function SkillsSnapshot() {
                         <li className="my-1 text-[#4A4A4A]">MongoDB</li>
                     </ul>
                 </div>
-                <div className="mt-10">
+                <div className="mt-10 mb-20">
                     <div className="flex flex-row justify-center mb-14">
                         <div className="text-xl text-[#2E2E2E]">
                             Desktop Apps
