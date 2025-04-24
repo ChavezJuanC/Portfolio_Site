@@ -54,7 +54,7 @@ function Navbar() {
         <>
             {/* Fixed navbar container */}
             <div className="fixed top-0 left-0 right-0 z-50 bg-[#EDEDED] h-12 flex items-center px-6 border-b border-[#D1D1D1]">
-                <Link to={"/#"}>
+                <Link to={"/"}>
                     <FaHome className="text-3xl text-[#3a74b6] md:hidden" />
                 </Link>
                 {/* Desktop */}

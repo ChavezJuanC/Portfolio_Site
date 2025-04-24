@@ -29,7 +29,7 @@ function Home() {
             >
                 <RiArrowDownWideFill className="mx-auto text-4xl text-[#2E2E2E] hover:text-[#000000]" />
             </div>
-            <div className="md:mt-28 mt-20" id="featured_projects">
+            <div className="md:pt-16 pt-20" id="featured_projects">
                 <FeaturedProjects />
             </div>
             <div className="md:mt-32 mt-16" id="skills_section">
