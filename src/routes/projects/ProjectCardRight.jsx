@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "./Slider";
 
-function ProjectCardRight({ projectName, projectDescription }) {
+function ProjectCardRight({ projectName, projectDescription, photoArray }) {
     return (
         <div className="xl:w-3/4 2xl:w-1/2 hidden lg:block mx-auto bg-[#FAFAFA] text-[#2E2E2E] px-4 rounded-2xl shadow-md border border-[#D1D1D1] pb-20">
             <h3 className="text-2xl font-semibold text-center mb-16 mt-16">
@@ -26,7 +26,7 @@ function ProjectCardRight({ projectName, projectDescription }) {
                     </div>
                 </div>
                 <div className="w-1/2 relative overflow-hidden rounded-xl border border-[#D1D1D1]">
-                    <Slider />
+                    <Slider photoArray={photoArray} />
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "./Slider";
 
-function ProjectCardMobile({ projectName, ProjectDescription }) {
+function ProjectCardMobile({ projectName, ProjectDescription, photoArray }) {
     return (
         <div className="mx-auto text-center">
             <div>
@@ -10,7 +10,7 @@ function ProjectCardMobile({ projectName, ProjectDescription }) {
                 </h3>
             </div>
             <div className="w-full sm:w-3/4 lg:1/2 relative overflow-hidden rounded-xl border border-[#D1D1D1] items-center mx-auto mb-10">
-                    <Slider />
+                <Slider photoArray={photoArray} />
             </div>
             <p className="text-[#4A4A4A] leading-relaxed px-4 pt-4">
                 {ProjectDescription}

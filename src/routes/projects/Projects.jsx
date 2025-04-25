@@ -41,6 +41,9 @@ function Projects() {
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-22" id="project_2_desktop">
@@ -49,6 +52,9 @@ function Projects() {
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-22" id="project_3_desktop">
@@ -57,6 +63,9 @@ function Projects() {
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-2">
@@ -65,6 +74,9 @@ function Projects() {
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-22">
@@ -73,6 +85,9 @@ function Projects() {
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-22">
@@ -81,6 +96,9 @@ function Projects() {
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
             </div>
@@ -92,6 +110,9 @@ function Projects() {
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-28" id="project_2_mobile">
@@ -100,6 +121,9 @@ function Projects() {
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-28" id="project_3_mobile">
@@ -108,6 +132,9 @@ function Projects() {
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-28">
@@ -116,6 +143,9 @@ function Projects() {
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
                 <div className="mb-28">
@@ -132,6 +162,9 @@ function Projects() {
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
+                        photoArray={[
+                            "project_imgs/appointment_setter_desktop/app1.png",
+                        ]}
                     />
                 </div>
             </div>

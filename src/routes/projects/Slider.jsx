@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
 
-function Slider() {
+function Slider({ photoArray }) {
+    const [currentPhoto, setCurrentPhoto] = useState();
+
+    useEffect(() => {
+        setCurrentPhoto(
+            photoArray[0] || "/project_imgs/appointment_setter_desktop/app1.png"
+        );
+    });
+
     return (
         <div className="pt-[66.66%] relative">
             <div className="absolute top-0 left-0 w-full h-full bg-[#F4F4F4] flex items-center justify-center text-[#6E6E6E]">
@@ -10,7 +18,7 @@ function Slider() {
                     <IoIosArrowDropleft />
                 </div>
                 <img
-                    src="/project_imgs/appointment_setter_desktop/app1.png"
+                    src={currentPhoto}
                     alt="Description"
                     className="absolute w-full object-fit"
                 />
@@ -23,3 +31,11 @@ function Slider() {
 }
 
 export default Slider;
+
+/* 
+Slider is now using an array of imgs.. 
+update the img dynamicaly now.. 
+remember.. if photoIndex > photoArray.length -> go back to one.. and the other way around..
+pretty much, allow and infinite loop..? Yea that cool for now.
+*/
+
