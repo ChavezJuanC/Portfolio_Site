@@ -32,7 +32,7 @@ function Home() {
             <div className="md:pt-16 md:mt-0 pt-4 mt-16" id="featured_projects">
                 <FeaturedProjects />
             </div>
-            <div className="md:mt-32 mt-16" id="skills_section">
+            <div className="md:mt-36 mt-16" id="skills_section">
                 <SkillsSnapshot />
             </div>
             <div className="border-1 md:w-1/2 rounded-lg p-6 flex flex-col mx-10 md:mx-auto mt-32 border-[#D1D1D1] mb-20">

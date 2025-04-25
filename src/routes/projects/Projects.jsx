@@ -37,7 +37,7 @@ function Projects() {
             <div className="hidden md:block" id="project_1_desktop">
                 <div className="mb-22">
                     <ProjectCardRight
-                        projectName={"Project Name"}
+                        projectName={"Appointment Schedualer"}
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -45,7 +45,7 @@ function Projects() {
                 </div>
                 <div className="mb-22" id="project_2_desktop">
                     <ProjectCardLeft
-                        projectName={"Project Name"}
+                        projectName={"Dota 2 Player Search"}
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -53,15 +53,15 @@ function Projects() {
                 </div>
                 <div className="mb-22" id="project_3_desktop">
                     <ProjectCardRight
-                        projectName={"Project Name"}
+                        projectName={"B-12 AI"}
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
                     />
                 </div>
-                <div className="mb-22">
+                <div className="mb-2">
                     <ProjectCardLeft
-                        projectName={"Project Name"}
+                        projectName={"Alprovet"}
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -69,7 +69,7 @@ function Projects() {
                 </div>
                 <div className="mb-22">
                     <ProjectCardRight
-                        projectName={"Project Name"}
+                        projectName={"Hunter Mate"}
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -77,7 +77,7 @@ function Projects() {
                 </div>
                 <div className="mb-22">
                     <ProjectCardLeft
-                        projectName={"Project Name"}
+                        projectName={"LCD controller over the internet"}
                         projectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -88,7 +88,7 @@ function Projects() {
             <div className="lg:hidden">
                 <div className="mb-28" id="project_1_mobile">
                     <ProjectCardMobile
-                        projectName={"Project Name"}
+                        projectName={"Appointment Schedualer"}
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -96,7 +96,7 @@ function Projects() {
                 </div>
                 <div className="mb-28" id="project_2_mobile">
                     <ProjectCardMobile
-                        projectName={"Project Name"}
+                        projectName={"Dota 2 Player Search"}
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -104,7 +104,7 @@ function Projects() {
                 </div>
                 <div className="mb-28" id="project_3_mobile">
                     <ProjectCardMobile
-                        projectName={"Project Name"}
+                        projectName={"B-12 AI"}
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -112,7 +112,7 @@ function Projects() {
                 </div>
                 <div className="mb-28">
                     <ProjectCardMobile
-                        projectName={"Project Name"}
+                        projectName={"Alprovet"}
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -120,7 +120,7 @@ function Projects() {
                 </div>
                 <div className="mb-28">
                     <ProjectCardMobile
-                        projectName={"Project Name"}
+                        projectName={"Hunter Mate"}
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
@@ -128,7 +128,7 @@ function Projects() {
                 </div>
                 <div className="mb-28">
                     <ProjectCardMobile
-                        projectName={"Project Name"}
+                        projectName={"LCD controller over the internet"}
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
                         }
