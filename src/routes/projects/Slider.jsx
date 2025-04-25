@@ -5,9 +5,11 @@ function Slider({ photoArray }) {
     const [currentPhoto, setCurrentPhoto] = useState();
 
     useEffect(() => {
-        setCurrentPhoto(
-            photoArray[0] || "/project_imgs/appointment_setter_desktop/app1.png"
-        );
+        if (photoArray != undefined) {
+            setCurrentPhoto(photoArray[0]);
+        } else {
+            setCurrentPhoto("project_imgs/appointment_setter_desktop/app2.png");
+        }
     });
 
     return (
@@ -38,4 +40,3 @@ update the img dynamicaly now..
 remember.. if photoIndex > photoArray.length -> go back to one.. and the other way around..
 pretty much, allow and infinite loop..? Yea that cool for now.
 */
-
