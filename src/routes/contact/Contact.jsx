@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {
-    
+    const [errors, setErrors] = useState({});
+
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }, []);
@@ -50,7 +51,7 @@ function Contact() {
     }
 
     return (
-        <div className="flex flex-col lg:flex-row mx-10 items-center justify-center gap-8 md:mt-32 mt-22">
+        <div className="flex flex-col lg:flex-row mx-10 items-center justify-center gap-8 md:mt-32 mt-20">
             <form
                 onSubmit={handleSubmit}
                 className="max-w-lg w-full p-6 bg-white border border-soft-gray rounded-lg shadow-md"
