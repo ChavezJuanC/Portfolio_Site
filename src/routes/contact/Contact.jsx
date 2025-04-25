@@ -126,7 +126,7 @@ function Contact() {
                 </div>
                 <button
                     type="submit"
-                    className="text-[#2E2E2E] mt-6 border-[#2E2E2E] border-1 px-3 py-1.5 rounded-md items-center flex shadow-2xl hover:shadow-xl active:shadow-xl hover:cursor-pointer"
+                    className=" mt-6 bg-[#3a74b6] text-[#FFFFFF] border-[#4A90E2] hover:font-semibold active:font-semiboldborder-1 px-3 py-1.5 rounded-md items-center flex shadow-2xl hover:shadow-xl active:shadow-xl hover:cursor-pointer"
                 >
                     Send Form
                 </button>
@@ -141,8 +141,10 @@ function Contact() {
                     className="flex items-center text-muted-blue text-2xl"
                     onClick={handleEmailCopied}
                 >
-                    <MdEmail className="mt-2.5" />
-                    <span className="ml-2">needagoodemail@gmail.com</span>
+                    <MdEmail className="mt-1.5 text-[#4A90E2]" />
+                    <span className="ml-2 text-[#4A90E2]">
+                        needagoodemail@gmail.com
+                    </span>
                 </div>
             </div>
         </div>
