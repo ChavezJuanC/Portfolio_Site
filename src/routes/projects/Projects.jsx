@@ -43,6 +43,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png"
                         ]}
                     />
                 </div>
@@ -54,6 +56,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -65,6 +69,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -76,6 +82,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -87,6 +95,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -98,6 +108,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -112,6 +124,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -123,6 +137,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -134,6 +150,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -145,6 +163,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
@@ -164,6 +184,8 @@ function Projects() {
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
+                            "project_imgs/appointment_setter_desktop/app2.png",
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
                     />
                 </div>
