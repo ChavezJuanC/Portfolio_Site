@@ -39,65 +39,78 @@ function Projects() {
                     <ProjectCardRight
                         projectName={"Appointment Schedualer"}
                         projectDescription={
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                            "Appointment Setter Desktop is a project designed to showcase the integration of React with Electron, Express.js, and MongoDB. This application provides a functional desktop interface for managing appointments, leveraging modern web technologies to deliver a seamless user experience."
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
                             "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png"
+                            "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/Appointment-Setter-Desktop"
+                        }
                     />
                 </div>
                 <div className="mb-22" id="project_2_desktop">
                     <ProjectCardLeft
                         projectName={"Dota 2 Player Search"}
                         projectDescription={
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                            "DotaPlayerSearch is a React Native application that lets users search for Dota 2 player profiles and view key statistics. By entering a player ID, users can access data like match history, win rates, and recent performance. The app uses the OpenDota API to fetch real-time information and features a simple, mobile-friendly design for easy use."
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/DotaPlayerSearch"
+                        }
                     />
                 </div>
                 <div className="mb-22" id="project_3_desktop">
                     <ProjectCardRight
                         projectName={"B-12 AI"}
                         projectDescription={
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                            "B-12 is a Python desktop application built with Tkinter that lets users run local LLMs through a simple GUI. It integrates with Ollama, supports easy switching between models, and includes features like screen capturing and image uploads for enhanced interactions."
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={"https://github.com/ChavezJuanC/b-12-beta"}
                     />
                 </div>
                 <div className="mb-2">
                     <ProjectCardLeft
                         projectName={"Alprovet"}
                         projectDescription={
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                            "Alprovet is a responsive website built with React, designed to showcase the clinic's services, staff, and contact information. The project focuses on front-end development, emphasizing a clean design, smooth navigation, and a mobile-friendly layout to help pet owners easily find the information they need"
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/ALPROVET_WEB"
+                        }
                     />
                 </div>
                 <div className="mb-22">
                     <ProjectCardRight
-                        projectName={"Hunter Mate"}
+                        projectName={"Monster Hunter Mate"}
                         projectDescription={
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                            "Monster Hunter Mate is a mobile app built with React Native, designed for seamless cross-platform compatibility. This app serves as a learning tool, showcasing various monsters, their weaknesses, and strategies for defeating them. It emphasizes smooth navigation, with parameters and nested navigation techniques to provide an intuitive user experience."
                         }
                         photoArray={[
                             "project_imgs/appointment_setter_desktop/app1.png",
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/MHW-HunterGuide"
+                        }
                     />
                 </div>
                 <div className="mb-22">
@@ -111,6 +124,9 @@ function Projects() {
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/ArduinoLCDControlGUI"
+                        }
                     />
                 </div>
             </div>
@@ -127,6 +143,9 @@ function Projects() {
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/Appointment-Setter-Desktop"
+                        }
                     />
                 </div>
                 <div className="mb-28" id="project_2_mobile">
@@ -140,6 +159,9 @@ function Projects() {
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/Appointment-Setter-Desktop"
+                        }
                     />
                 </div>
                 <div className="mb-28" id="project_3_mobile">
@@ -153,6 +175,9 @@ function Projects() {
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/Appointment-Setter-Desktop"
+                        }
                     />
                 </div>
                 <div className="mb-28">
@@ -166,6 +191,9 @@ function Projects() {
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/Appointment-Setter-Desktop"
+                        }
                     />
                 </div>
                 <div className="mb-28">
@@ -173,6 +201,9 @@ function Projects() {
                         projectName={"Hunter Mate"}
                         ProjectDescription={
                             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni dolorum in incidunt earum consectetur doloremque, quasi deserunt iste dignissimos non quidem blanditiis aperiam adipisci nemo nesciunt consequatur doloribus eligendi."
+                        }
+                        githubLink={
+                            "https://github.com/ChavezJuanC/Appointment-Setter-Desktop"
                         }
                     />
                 </div>
@@ -187,6 +218,9 @@ function Projects() {
                             "project_imgs/appointment_setter_desktop/app2.png",
                             "project_imgs/appointment_setter_desktop/app3.png",
                         ]}
+                        githubLink={
+                            "https://github.com/ChavezJuanC/Appointment-Setter-Desktop"
+                        }
                     />
                 </div>
             </div>

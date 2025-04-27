@@ -1,7 +1,13 @@
 import React from "react";
 import Slider from "./Slider";
+import { Link } from "react-router-dom";
 
-function ProjectCardMobile({ projectName, ProjectDescription, photoArray }) {
+function ProjectCardMobile({
+    projectName,
+    ProjectDescription,
+    photoArray,
+    githubLink,
+}) {
     return (
         <div className="mx-auto text-center">
             <div>
@@ -15,6 +21,15 @@ function ProjectCardMobile({ projectName, ProjectDescription, photoArray }) {
             <p className="text-[#4A4A4A] leading-relaxed px-4 pt-4">
                 {ProjectDescription}
             </p>
+            <div>
+                <Link
+                    to={githubLink}
+                    target="_blank"
+                    className="inline-block bg-[#3a74b6] text-white px-4 py-2 rounded-md hover:brightness-110 transition"
+                >
+                    Source Code
+                </Link>
+            </div>
         </div>
     );
 }
