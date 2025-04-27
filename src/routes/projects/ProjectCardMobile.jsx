@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function ProjectCardMobile({
     projectName,
-    ProjectDescription,
+    projectDescription,
     photoArray,
     githubLink,
 }) {
@@ -19,15 +19,15 @@ function ProjectCardMobile({
                 <Slider photoArray={photoArray} />
             </div>
             <p className="text-[#4A4A4A] leading-relaxed px-4 pt-4">
-                {ProjectDescription}
+                {projectDescription}
             </p>
-            <div>
+            <div className="mt-6">
                 <Link
                     to={githubLink}
                     target="_blank"
                     className="inline-block bg-[#3a74b6] text-white px-4 py-2 rounded-md hover:brightness-110 transition"
                 >
-                    Source Code
+                    Code
                 </Link>
             </div>
         </div>
