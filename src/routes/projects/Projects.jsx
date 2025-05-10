@@ -58,9 +58,7 @@ function Projects() {
                             "DotaPlayerSearch is a React Native application that lets users search for Dota 2 player profiles and view key statistics. By entering a player ID, users can access data like match history, win rates, and recent performance. The app uses the OpenDota API to fetch real-time information and features a simple, mobile-friendly design for easy use."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/DotaPlayerSearch"
@@ -74,9 +72,7 @@ function Projects() {
                             "B-12 is a Python desktop application built with Tkinter that lets users run local LLMs through a simple GUI. It integrates with Ollama, supports easy switching between models, and includes features like screen capturing and image uploads for enhanced interactions."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={"https://github.com/ChavezJuanC/b-12-beta"}
                     />
@@ -88,9 +84,7 @@ function Projects() {
                             "Alprovet is a responsive website built with React, designed to showcase the clinic's services, staff, and contact information. The project focuses on front-end development, emphasizing a clean design, smooth navigation, and a mobile-friendly layout to help pet owners easily find the information they need"
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/ALPROVET_WEB"
@@ -104,9 +98,7 @@ function Projects() {
                             "Monster Hunter Mate is a mobile app built with React Native, designed for seamless cross-platform compatibility. This app serves as a learning tool, showcasing various monsters, their weaknesses, and strategies for defeating them. It emphasizes smooth navigation, with parameters and nested navigation techniques to provide an intuitive user experience."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/MHW-HunterGuide"
@@ -120,9 +112,7 @@ function Projects() {
                             "LCD Controller is a GUI application that allows users to control an LCD screen over the internet. The app connects via IP and port number, providing features such as switching between 1-line and 2-line modes, enabling/disabling scrolling, adjusting contrast and brightness, and toggling the backlight on or off. It operates through sockets, making it a flexible and remote solution for managing LCD displays."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/ArduinoLCDControlGUI"
@@ -155,9 +145,7 @@ function Projects() {
                             "DotaPlayerSearch is a React Native application that lets users search for Dota 2 player profiles and view key statistics. By entering a player ID, users can access data like match history, win rates, and recent performance. The app uses the OpenDota API to fetch real-time information and features a simple, mobile-friendly design for easy use."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/DotaPlayerSearch"
@@ -171,9 +159,7 @@ function Projects() {
                             "B-12 is a Python desktop application built with Tkinter that lets users run local LLMs through a simple GUI. It integrates with Ollama, supports easy switching between models, and includes features like screen capturing and image uploads for enhanced interactions."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={"https://github.com/ChavezJuanC/b-12-beta"}
                     />
@@ -185,9 +171,7 @@ function Projects() {
                             "Alprovet is a responsive website built with React, designed to showcase the clinic's services, staff, and contact information. The project focuses on front-end development, emphasizing a clean design, smooth navigation, and a mobile-friendly layout to help pet owners easily find the information they need"
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/ALPROVET_WEB"
@@ -201,9 +185,7 @@ function Projects() {
                             "Monster Hunter Mate is a mobile app built with React Native, designed for seamless cross-platform compatibility. This app serves as a learning tool, showcasing various monsters, their weaknesses, and strategies for defeating them. It emphasizes smooth navigation, with parameters and nested navigation techniques to provide an intuitive user experience."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/MHW-HunterGuide"
@@ -217,9 +199,7 @@ function Projects() {
                             "LCD Controller is a GUI application that allows users to control an LCD screen over the internet. The app connects via IP and port number, providing features such as switching between 1-line and 2-line modes, enabling/disabling scrolling, adjusting contrast and brightness, and toggling the backlight on or off. It operates through sockets, making it a flexible and remote solution for managing LCD displays."
                         }
                         photoArray={[
-                            "project_imgs/appointment_setter_desktop/app1.png",
-                            "project_imgs/appointment_setter_desktop/app2.png",
-                            "project_imgs/appointment_setter_desktop/app3.png",
+                            "project/imgs/placeholder/placeholder-image.jpg",
                         ]}
                         githubLink={
                             "https://github.com/ChavezJuanC/ArduinoLCDControlGUI"
