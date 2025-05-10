@@ -41,7 +41,7 @@ function Home() {
                     Windows Forms tools, and Arduino-powered hardware demos. I
                     thrive on solving real-world challenges.
                 </div>
-                <div className="self-end mt-6 bg-[#3a74b6] text-[#FFFFFF] border-[#4A90E2] border-1 px-3 py- rounded-md items-center flex shadow-2xl hover:shadow-xl active:shadow-xl hover:cursor-pointer">
+                <div className="self-end mt-6 bg-[#3a74b6] text-[#FFFFFF] border-[#4A90E2] border-1 px-3 pt-1 pb-2 rounded-md items-center flex shadow-2xl hover:shadow-xl active:shadow-xl hover:cursor-pointer">
                     <Link to="/about">Read my story</Link>
                     <FaArrowRightLong className="inline mx-2" />
                 </div>

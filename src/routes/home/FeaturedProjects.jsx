@@ -1,15 +1,14 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const ProjectCard = ({ projectName }) => {
+const ProjectCard = ({ projectName, img_source }) => {
     return (
         <div className="mx-10">
             <div className="hidden md:mx-0 mx-12 md:block my-6 text-xl font-semibold text-center w-96 text-[#2E2E2E]">
                 {projectName}
             </div>
-            <div className="w-96 h-60 border-2 border-[#3a74b6] rounded-lg shadow-lg hover:shadow-2xl active:shadow-2xl relative overflow-hidden filter lg:grayscale lg:hover:grayscale-0 transition duration-500 ease-in-out">
+            <div className="w-96 h-60 border-2 border-[#3a74b6] rounded-lg shadow-lg hover:shadow-2xl active:shadow-2xl relative overflow-hidden filter">
                 <img
-                    src="/project_imgs/appointment_setter_desktop/app1.png"
+                    src={img_source}
                     alt="Description"
                     className="absolute w-full h-full object-fill"
                 />
@@ -41,7 +40,12 @@ const FeaturedProjects = () => {
                     handleProjectClicked(1);
                 }}
             >
-                <ProjectCard projectName={"Appointment Schedualer"} />
+                <ProjectCard
+                    projectName={"Appointment Schedualer"}
+                    img_source={
+                        "project_imgs/appointment_setter_desktop/app1.png"
+                    }
+                />
             </div>
             <div
                 className="mt-10 md:mt-4"
@@ -49,7 +53,12 @@ const FeaturedProjects = () => {
                     handleProjectClicked(2);
                 }}
             >
-                <ProjectCard projectName={"Dota 2 Player Search"} />
+                <ProjectCard
+                    projectName={"Dota 2 Player Search"}
+                    img_source={
+                        "project_imgs/placeholder/placeholder-image.jpg"
+                    }
+                />
             </div>
             <div
                 className="mt-10 md:mt-4"
@@ -57,7 +66,12 @@ const FeaturedProjects = () => {
                     handleProjectClicked(3);
                 }}
             >
-                <ProjectCard projectName={"B-12 AI"} />
+                <ProjectCard
+                    projectName={"B-12 AI"}
+                    img_source={
+                        "project_imgs/placeholder/placeholder-image.jpg"
+                    }
+                />
             </div>
         </div>
     );
