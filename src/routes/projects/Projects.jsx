@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCardRight from "./ProjectCardRight";
 import ProjectCardLeft from "./ProjectCardLeft";
 import ProjectCardMobile from "./ProjectCardMobile";
@@ -83,9 +82,7 @@ function Projects() {
                         projectDescription={
                             "Alprovet is a responsive website built with React, designed to showcase the clinic's services, staff, and contact information. The project focuses on front-end development, emphasizing a clean design, smooth navigation, and a mobile-friendly layout to help pet owners easily find the information they need"
                         }
-                        photoArray={[
-                            "project_imgs/placeholder/placeholder-image.jpg",
-                        ]}
+                        photoArray={["project_imgs/alprovet/alprovet_1.png"]}
                         githubLink={
                             "https://github.com/ChavezJuanC/ALPROVET_WEB"
                         }
@@ -170,9 +167,7 @@ function Projects() {
                         projectDescription={
                             "Alprovet is a responsive website built with React, designed to showcase the clinic's services, staff, and contact information. The project focuses on front-end development, emphasizing a clean design, smooth navigation, and a mobile-friendly layout to help pet owners easily find the information they need"
                         }
-                        photoArray={[
-                            "project_imgs/placeholder/placeholder-image.jpg",
-                        ]}
+                        photoArray={["project_imgs/alprovet/alprovet_1.png"]}
                         githubLink={
                             "https://github.com/ChavezJuanC/ALPROVET_WEB"
                         }

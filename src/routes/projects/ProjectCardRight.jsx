@@ -25,7 +25,7 @@ function ProjectCardRight({ projectName, projectDescription, photoArray , github
                         </div>
                     </div>
                 </div>
-                <div className="w-1/2 relative overflow-hidden rounded-xl border border-[#D1D1D1]">
+                <div className="w-1/2 relative overflow-hidden">
                     <Slider photoArray={photoArray} />
                 </div>
             </div>
