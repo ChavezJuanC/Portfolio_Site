@@ -56,7 +56,7 @@ const FeaturedProjects = () => {
                 <ProjectCard
                     projectName={"Dota 2 Player Search"}
                     img_source={
-                        "project_imgs/placeholder/placeholder-image.jpg"
+                        "project_imgs/dota-search/dota_search_tool_img_1.png"
                     }
                 />
             </div>

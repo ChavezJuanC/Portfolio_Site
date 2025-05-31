@@ -57,10 +57,13 @@ function Projects() {
                             "DotaPlayerSearch is a React Native application that lets users search for Dota 2 player profiles and view key statistics. By entering a player ID, users can access data like match history, win rates, and recent performance. The app uses the OpenDota API to fetch real-time information and features a simple, mobile-friendly design for easy use."
                         }
                         photoArray={[
-                            "project_imgs/placeholder/placeholder-image.jpg",
+                            "project_imgs/dota-search/dota_search_tool_img_1.png",
+                            "project_imgs/dota-search/dota_search_tool_img_2.png",
+                            "project_imgs/dota-search/dota_search_tool_img_3.png",
+                            "project_imgs/dota-search/dota_search_tool_img_4.png",
                         ]}
                         githubLink={
-                            "https://github.com/ChavezJuanC/DotaPlayerSearch"
+                            "https://github.com/ChavezJuanC/Dota2SeachTool"
                         }
                     />
                 </div>
