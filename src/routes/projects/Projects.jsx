@@ -74,7 +74,7 @@ function Projects() {
                             "B-12 is a Python desktop application built with Tkinter that lets users run local LLMs through a simple GUI. It integrates with Ollama, supports easy switching between models, and includes features like screen capturing and image uploads for enhanced interactions."
                         }
                         photoArray={[
-                            "project_imgs/placeholder/placeholder-image.jpg",
+                            "project_imgs/b-12/b-12.png",
                         ]}
                         githubLink={"https://github.com/ChavezJuanC/b-12-beta"}
                     />

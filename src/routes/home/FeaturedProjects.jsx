@@ -68,9 +68,7 @@ const FeaturedProjects = () => {
             >
                 <ProjectCard
                     projectName={"B-12 AI"}
-                    img_source={
-                        "project_imgs/placeholder/placeholder-image.jpg"
-                    }
+                    img_source={"project_imgs/b-12/b-12.png"}
                 />
             </div>
         </div>
